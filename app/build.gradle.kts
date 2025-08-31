@@ -36,12 +36,26 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+
+    // LibGDX dependencies
+    implementation("com.badlogicgames.gdx:gdx-backend-android:1.12.1")
+    implementation("com.badlogicgames.gdx:gdx:1.12.1")
+    implementation("com.badlogicgames.gdx:gdx-box2d:1.12.1")
+    implementation("com.badlogicgames.gdx:gdx-freetype:1.12.1")
+
+    // Natives для Android
+    implementation("com.badlogicgames.gdx:gdx-platform:1.12.1:natives-arm64-v8a")
+    implementation("com.badlogicgames.gdx:gdx-platform:1.12.1:natives-armeabi-v7a")
+    implementation("com.badlogicgames.gdx:gdx-box2d-platform:1.12.1:natives-arm64-v8a")
+    implementation("com.badlogicgames.gdx:gdx-box2d-platform:1.12.1:natives-armeabi-v7a")
+    implementation("com.badlogicgames.gdx:gdx-freetype-platform:1.12.1:natives-arm64-v8a")
+    implementation("com.badlogicgames.gdx:gdx-freetype-platform:1.12.1:natives-armeabi-v7a")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

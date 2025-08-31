@@ -1,3 +1,72 @@
 <resources>
-    <string name="app_name">noizevoice</string>
+    <string name="app_name">NOIZE: Битва за голос</string>
+
+    <!-- Интерфейс игры -->
+    <string name="new_game">Новая игра</string>
+    <string name="continue_game">Продолжить</string>
+    <string name="cassette_collection">Коллекция кассет</string>
+    <string name="settings">Настройки</string>
+    <string name="about">Об игре</string>
+    <string name="exit">Выход</string>
+
+    <!-- Управление -->
+    <string name="jump">Прыжок</string>
+    <string name="attack">Атака</string>
+    <string name="pause">Пауза</string>
+    <string name="ultimate">Ультимейт</string>
+
+    <!-- Способности -->
+    <string name="make_some_noize">Make Some Noize</string>
+    <string name="vidihay">Выдыхай</string>
+    <string name="vselennaya">Вселенная бесконечна?</string>
+    <string name="igra_slov">Игра слов</string>
+    <string name="moe_more">Моё море</string>
+    <string name="mercedes">Mercedes S666</string>
+
+    <!-- Персонажи -->
+    <string name="ivan">Иван</string>
+    <string name="shadow">Тень</string>
+    <string name="barkov">Барков</string>
+    <string name="fan">Фанат</string>
+    <string name="friend">Друг</string>
+
+    <!-- Враги -->
+    <string name="noise_maker">Шумовик</string>
+    <string name="silencer">Глушитель</string>
+    <string name="critic">Критик</string>
+    <string name="media_spammer">Медиа-спамер</string>
+    <string name="censor_drone">Цензурный дрон</string>
+    <string name="fanatic_phantom">Фанатский фантом</string>
+
+    <!-- Акты игры -->
+    <string name="act1">Улицы города</string>
+    <string name="act2">Общежитие РГГУ</string>
+    <string name="act3">Беззвучная зона</string>
+    <string name="act4">Дорога</string>
+    <string name="act5">Узел системы</string>
+    <string name="final_act">Финал</string>
+    <string name="epilogue_act">Эпилог</string>
+
+    <!-- Статистика -->
+    <string name="cassettes_collected">Собрано кассет</string>
+    <string name="memories_unlocked">Разблокировано воспоминаний</string>
+    <string name="play_time">Время игры</string>
+    <string name="progress">Прогресс</string>
+
+    <!-- Сообщения -->
+    <string name="game_paused">Игра на паузе</string>
+    <string name="level_completed">Уровень завершен!</string>
+    <string name="cassette_found">Кассета найдена!</string>
+    <string name="ability_unlocked">Способность разблокирована!</string>
+    <string name="quest_completed">Квест выполнен!</string>
+
+    <!-- Настройки -->
+    <string name="music_volume">Громкость музыки</string>
+    <string name="sound_volume">Громкость звуков</string>
+    <string name="music_enabled">Музыка</string>
+    <string name="sound_enabled">Звуки</string>
+    <string name="reset_progress">Сбросить прогресс</string>
+
+    <!-- Описание игры -->
+    <string name="game_description">2D пиксельная игра, основанная на биографии и творчестве Ивана Алексеева (Noize MC)</string>
 </resources>
